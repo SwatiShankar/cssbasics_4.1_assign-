@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bubble Shape with CSS3</title>
+<style>
+.bubble {
+	position                : relative;
+	left                    : 20px;
+	width                   : 200px;
+	height                  : 100px;
+	background-color        : #00bfff;
+	-webkit-border-radius   : 30px;							/*style for safari browser*/
+	-moz-border-radius      : 30px;							/*style for mozilla browser*/
+	border-radius           : 10px;
+}
+.arrow{
+   	position                : absolute;
+  	left                    : 10px;
+  	top                     : 45px;
+  	border-top              : 20px solid transparent;		
+  	border-bottom           : 20px solid transparent;
+  	border-right            : 35px solid #00bfff;
+}
+</style>
+</head>
+<body>
+
+<!--Below <p> forms the bubble -->
+<p class="bubble"></p>
+
+<!--below <div> forms the arrow attached to the bubble-->
+<div class="arrow"></div>
+
+</body>
+</html>
